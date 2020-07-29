@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title lang="en-US">The Su Survey</title>
+</head>
+<body>
+    <h1 id="title">The Su's Survey</h1>
+  <p id="description">Complete this survey for information</p>
+  <form id ="survey-form">
+    <label for="name" id="name-label">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required ><br>
+    <label for="email" id="email-label">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required ><br>
+    <label for="number" id="number-label">Age (optional)</label><br>
+        <input id="number" name="number" type="number" max="100" min="1" placeholder="Enter your age">
+    <label for="lunch">What's for breakfast?</label>
+  <select id="dropdown" name="fruits">
+    <option value="mango">Mango</option>
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+    </select>
+
+    <p>What's your favourite destination</p>
+    <input name="user-recommend" value="Da Nang" type="radio" class="input-radio">
+    <lable>Da Nang</lable>
+    <br>
+    <input name="user-recommend" value="Ha Noi" type="radio" class="input-radio">
+    <lable>Ha Noi</lable>
+    <br>
+    <input name="user-recommend" value="Hoi An" type="radio" class="input-radio">
+    <lable>Hoi An</lable>
+    <br>
+    <input name="user-recommend" value="Ho Chi Minh City" type="radio" class="input-radio">
+    <lable>Ho Chi Minh City</lable>
+    <br>
+  <p>Choose your ice-cream flavor:</p>
+  <label for="vanilla">Vanilla</label>
+  <input id="vanilla" name="topping" type="checkbox" value="ice-cream">
+  <br>
+  <label for="chocolate">Chocolate</label>
+  <input id="chocolate" name="topping" type="checkbox" value="ice-cream">
+  <br>
+  <label for="strawberry">Strawberry</label>
+  <input id="strawberry" name="topping" type="checkbox" value="ice-cream">
+<label for="comment">Comment: </label>
+  <br>
+  <textarea id="comment" name="comment" rows="5" cols="30">Adding default text
+  </textarea>
+    <input type="submit" value="Send" id="submit">
+</form>
+</body>
